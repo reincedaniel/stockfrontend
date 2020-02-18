@@ -1,0 +1,39 @@
+{
+  "name": "azubus",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "productName": "Azubus App",
+  "cordovaId": "org.cordova.quasar.app",
+  "capacitorId": "",
+  "author": "Lourenço Daniel Sebastião Carlos <reincedaniel@gmail.com>",
+  "private": true,
+  "scripts": {
+    "test": "echo \"No test specified\" && exit 0"
+  },
+  "dependencies": {
+    "@quasar/extras": "^1.0.0",
+    "axios": "^0.18.1",
+    "chart.js": "^2.9.3",
+    "jsonwebtoken": "^8.5.1",
+    "quasar": "^1.0.0",
+    "vue-excel-export": "^0.1.3",
+    "vue-i18n": "^8.0.0",
+    "vue-json-to-excel": "0.0.8",
+    "xlsx": "^0.15.5"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.0.0",
+    "devtron": "^1.4.0",
+    "electron": "^7.1.12",
+    "electron-debug": "^3.0.1",
+    "electron-devtools-installer": "^2.2.4"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ]
+}
