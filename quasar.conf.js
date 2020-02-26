@@ -51,7 +51,8 @@ module.exports = function (ctx) {
         'Dialog',
         'Notify',
         'LocalStorage',
-        'SessionStorage'
+        'SessionStorage',
+        'AppFullscreen'
       ]
     },
 
@@ -95,9 +96,9 @@ module.exports = function (ctx) {
       workboxPluginMode: 'GenerateSW', // 'GenerateSW' or 'InjectManifest'
       workboxOptions: {}, // only for GenerateSW
       manifest: {
-        name: 'Azubus App',
-        short_name: 'Azubus App',
-        description: 'A Quasar Framework app',
+        name: 'Ustock App',
+        short_name: 'Us. App',
+        description: 'Controle de Stock',
         display: 'standalone',
         orientation: 'portrait',
         background_color: '#ffffff',
