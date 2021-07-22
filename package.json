@@ -21,7 +21,7 @@
     "vue-google-charts": "^0.3.2",
     "vue-i18n": "^8.0.0",
     "vue-json-to-excel": "0.0.8",
-    "xlsx": "^0.15.5"
+    "xlsx": "^0.17.0"
   },
   "devDependencies": {
     "@quasar/app": "^1.0.0",
